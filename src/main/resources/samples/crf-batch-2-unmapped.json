@@ -1,0 +1,19 @@
+{
+  "sourceSystem": "CRF",
+  "centerId": "C01",
+  "batchLabel": "crf-batch-2",
+  "receivedAt": "2026-03-22T09:30:00Z",
+  "facts": [
+    {
+      "sourceRecordId": "CRF-1004",
+      "sourceRevision": 1,
+      "externalSubjectId": "S-001",
+      "externalVisitCode": "V2",
+      "sourceFieldCode": "XXMOOD",
+      "valueText": "良好",
+      "eventTime": "2026-03-15T10:00:00Z",
+      "timePrecision": "DATETIME",
+      "payloadSummary": "EDC自定义字段XXMOOD(字段目录外): 良好"
+    }
+  ]
+}

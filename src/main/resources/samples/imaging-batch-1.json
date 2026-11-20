@@ -1,0 +1,19 @@
+{
+  "sourceSystem": "IMAGING",
+  "centerId": "C01",
+  "batchLabel": "imaging-batch-1",
+  "receivedAt": "2026-03-20T14:00:00Z",
+  "facts": [
+    {
+      "sourceRecordId": "I-9001",
+      "sourceRevision": 1,
+      "externalSubjectId": "S-001",
+      "sourceFieldCode": "LD_SUM",
+      "valueNum": 82,
+      "unit": "mm",
+      "eventDate": "2026-03-19",
+      "timePrecision": "DATE",
+      "payloadSummary": "影像评估: 靶病灶长径和82mm (检查日期2026-03-19, 仅日期精度)"
+    }
+  ]
+}

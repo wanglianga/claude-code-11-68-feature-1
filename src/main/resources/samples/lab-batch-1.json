@@ -1,0 +1,42 @@
+{
+  "sourceSystem": "LAB",
+  "centerId": "C01",
+  "batchLabel": "lab-batch-1",
+  "receivedAt": "2026-03-17T10:00:00Z",
+  "facts": [
+    {
+      "sourceRecordId": "L-1001",
+      "sourceRevision": 1,
+      "externalSubjectId": "S-001",
+      "sourceFieldCode": "ALT",
+      "valueNum": 35,
+      "unit": "U/L",
+      "eventDate": "2026-03-15",
+      "timePrecision": "DATE",
+      "payloadSummary": "中心实验室报告: ALT 35 U/L (采血日期2026-03-15)"
+    },
+    {
+      "sourceRecordId": "L-1002",
+      "sourceRevision": 1,
+      "externalSubjectId": "S-001",
+      "externalVisitCode": "V2",
+      "sourceFieldCode": "ALT",
+      "valueNum": 52,
+      "unit": "U/L",
+      "eventDate": "2026-03-16",
+      "timePrecision": "DATE",
+      "payloadSummary": "中心实验室复查前快报: ALT 52 U/L (访视V2)"
+    },
+    {
+      "sourceRecordId": "L-2001",
+      "sourceRevision": 1,
+      "externalSubjectId": "S-002",
+      "sourceFieldCode": "ALT",
+      "valueNum": 41,
+      "unit": "U/L",
+      "eventDate": "2026-03-24",
+      "timePrecision": "DATE",
+      "payloadSummary": "中心实验室报告: ALT 41 U/L (采血日期2026-03-24)"
+    }
+  ]
+}

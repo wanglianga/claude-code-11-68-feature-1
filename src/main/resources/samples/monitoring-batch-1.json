@@ -1,0 +1,19 @@
+{
+  "sourceSystem": "MONITORING",
+  "centerId": "C01",
+  "batchLabel": "monitoring-batch-1",
+  "receivedAt": "2026-03-21T11:00:00Z",
+  "facts": [
+    {
+      "sourceRecordId": "M-3001",
+      "sourceRevision": 1,
+      "externalSubjectId": "S-001",
+      "externalVisitCode": "V2",
+      "sourceFieldCode": "FINDING",
+      "valueText": "源数据核对: V2访视收缩压源文件与CRF录入不一致, 建议核查",
+      "eventDate": "2026-03-18",
+      "timePrecision": "DATE",
+      "payloadSummary": "监查访视报告: SDV不一致发现"
+    }
+  ]
+}

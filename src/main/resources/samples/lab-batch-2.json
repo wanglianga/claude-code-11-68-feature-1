@@ -1,0 +1,31 @@
+{
+  "sourceSystem": "LAB",
+  "centerId": "C01",
+  "batchLabel": "lab-batch-2",
+  "receivedAt": "2026-04-02T10:00:00Z",
+  "facts": [
+    {
+      "sourceRecordId": "L-1001",
+      "sourceRevision": 2,
+      "externalSubjectId": "S-001",
+      "sourceFieldCode": "ALT",
+      "valueNum": 36,
+      "unit": "U/L",
+      "eventDate": "2026-03-15",
+      "timePrecision": "DATE",
+      "payloadSummary": "中心实验室更正报告: ALT 36 U/L (原35作废, 采血日期2026-03-15)"
+    },
+    {
+      "sourceRecordId": "L-1002",
+      "sourceRevision": 2,
+      "externalSubjectId": "S-001",
+      "externalVisitCode": "V2",
+      "sourceFieldCode": "ALT",
+      "valueNum": 36,
+      "unit": "U/L",
+      "eventDate": "2026-03-16",
+      "timePrecision": "DATE",
+      "payloadSummary": "中心实验室更正报告: ALT 36 U/L (原52系录入错误)"
+    }
+  ]
+}

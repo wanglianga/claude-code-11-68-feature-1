@@ -1,0 +1,44 @@
+{
+  "sourceSystem": "CRF",
+  "centerId": "C01",
+  "batchLabel": "crf-batch-1",
+  "receivedAt": "2026-03-16T09:00:00Z",
+  "facts": [
+    {
+      "sourceRecordId": "CRF-1001",
+      "sourceRevision": 1,
+      "externalSubjectId": "S-001",
+      "externalVisitCode": "V2",
+      "sourceFieldCode": "SYSBP",
+      "valueNum": 120,
+      "unit": "mmHg",
+      "eventTime": "2026-03-15T09:30:00Z",
+      "timePrecision": "DATETIME",
+      "payloadSummary": "EDC页面V2-生命体征: 收缩压120mmHg"
+    },
+    {
+      "sourceRecordId": "CRF-1002",
+      "sourceRevision": 1,
+      "externalSubjectId": "S-002",
+      "externalVisitCode": "V1",
+      "sourceFieldCode": "SYSBP",
+      "valueNum": 118,
+      "unit": "mmHg",
+      "eventTime": "2026-03-10T08:05:00Z",
+      "timePrecision": "DATETIME",
+      "payloadSummary": "EDC页面V1-生命体征: 收缩压118mmHg"
+    },
+    {
+      "sourceRecordId": "CRF-1003",
+      "sourceRevision": 1,
+      "externalSubjectId": "S-002",
+      "externalVisitCode": "V1",
+      "sourceFieldCode": "DIABP",
+      "valueNum": 76,
+      "unit": "mmHg",
+      "eventTime": "2026-03-10T08:05:00Z",
+      "timePrecision": "DATETIME",
+      "payloadSummary": "EDC页面V1-生命体征: 舒张压76mmHg"
+    }
+  ]
+}
