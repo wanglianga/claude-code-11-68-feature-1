@@ -1,0 +1,30 @@
+{
+  "subjectKey": "SUBJ-002",
+  "scanKey": "S2-FU1",
+  "reader": "rad1",
+  "readAt": "2026-03-17",
+  "status": "FINAL",
+  "triggerNote": "随访阅片：父病灶分裂为两个可测部分",
+  "measurements": [
+    {
+      "lesionKey": "S2-TL12",
+      "isNew": false,
+      "measurable": true,
+      "diameter": 25.0,
+      "axis": "LONG_AXIS",
+      "seriesKey": "S2-FU1-S1",
+      "contourRef": "x: 95.0, y: 95.0, z: 100.0",
+      "evidenceRef": "img-ref-tl12"
+    },
+    {
+      "lesionKey": "S2-TL13",
+      "isNew": false,
+      "measurable": true,
+      "diameter": 20.0,
+      "axis": "LONG_AXIS",
+      "seriesKey": "S2-FU1-S1",
+      "contourRef": "x: 110.0, y: 105.0, z: 100.0",
+      "evidenceRef": "img-ref-tl13"
+    }
+  ]
+}

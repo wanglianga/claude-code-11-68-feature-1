@@ -1,0 +1,6 @@
+{
+  "name": "EP-1",
+  "includeNotEvaluable": false,
+  "requireComparable": true,
+  "subjectKeys": ["SUBJ-001", "SUBJ-002", "SUBJ-003", "SUBJ-004"]
+}

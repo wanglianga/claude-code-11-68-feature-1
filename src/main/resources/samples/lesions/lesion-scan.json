@@ -1,0 +1,15 @@
+{
+  "subjectKey": "SUBJ-002",
+  "centerId": "C01",
+  "scanKey": "S2-FU1",
+  "visitCode": "V2",
+  "scanDate": "2026-03-16",
+  "modality": "CT",
+  "scannerModel": "SCANNER-A",
+  "sliceThickness": 2.0,
+  "contrastSeries": "增强",
+  "protocolStatus": "OK",
+  "series": [
+    { "seriesKey": "S2-FU1-S1", "modality": "CT", "sequenceLabel": "腹部增强CT轴位", "sliceThickness": 2.0 }
+  ]
+}

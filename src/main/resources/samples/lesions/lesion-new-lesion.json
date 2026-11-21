@@ -1,0 +1,10 @@
+{
+  "subjectKey": "SUBJ-001",
+  "lesionKey": "S1-TL03",
+  "bodySite": "肺右下叶",
+  "measurementAxis": "LONG_AXIS",
+  "scanKey": "S1-FU1",
+  "seriesKey": "S1-FU1-S1",
+  "origin": "NEW",
+  "note": "随访新发现病灶，登记后在阅片中以 isNew=true 测量；不并入靶病灶 SLD"
+}

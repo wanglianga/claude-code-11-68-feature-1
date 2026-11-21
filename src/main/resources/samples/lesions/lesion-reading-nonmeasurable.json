@@ -1,0 +1,29 @@
+{
+  "subjectKey": "SUBJ-004",
+  "scanKey": "S4-FU1-DEV",
+  "reader": "rad2",
+  "readAt": "2026-03-17",
+  "status": "FINAL",
+  "triggerNote": "厚层扫描：一个病灶不可测（伪影），缺值不记零",
+  "measurements": [
+    {
+      "lesionKey": "S4-TL31",
+      "isNew": false,
+      "measurable": true,
+      "diameter": 60.0,
+      "axis": "LONG_AXIS",
+      "seriesKey": "S4-FU1-DEV-S1",
+      "contourRef": "x: 301.0, y: 300.0, z: 80.0",
+      "evidenceRef": "img-ref-tl31"
+    },
+    {
+      "lesionKey": "S4-TL32",
+      "isNew": false,
+      "measurable": false,
+      "diameter": null,
+      "seriesKey": "S4-FU1-DEV-S1",
+      "nonMeasurableReason": "呼吸运动伪影无法勾画边界",
+      "evidenceRef": "img-ref-tl32-nm"
+    }
+  ]
+}

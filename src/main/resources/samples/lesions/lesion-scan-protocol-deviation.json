@@ -1,0 +1,14 @@
+{
+  "subjectKey": "SUBJ-004",
+  "centerId": "C02",
+  "scanKey": "S4-FU1-DEV",
+  "visitCode": "V2",
+  "scanDate": "2026-03-16",
+  "modality": "CT",
+  "scannerModel": "SCANNER-C",
+  "sliceThickness": 5.0,
+  "contrastSeries": "增强",
+  "series": [
+    { "seriesKey": "S4-FU1-DEV-S1", "modality": "CT", "sequenceLabel": "胸部CT轴位(厚层)", "sliceThickness": 5.0 }
+  ]
+}

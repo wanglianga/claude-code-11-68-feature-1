@@ -42,6 +42,10 @@ public class DemoSeedService {
                     query_response, query_item,
                     reconciled_fact_source, reconciled_fact_history, reconciled_fact, reconcile_run,
                     fact_link, link_candidate, raw_fact, source_batch,
+                    endpoint_dataset_row, endpoint_dataset,
+                    lesion_metric_history, lesion_metric, lesion_mapping_run,
+                    lesion_link, lesion_link_candidate, lesion_measurement, reading_session,
+                    target_lesion, imaging_series, imaging_scan,
                     field_catalog, visit_schedule, center_subject_map, subject
                 restart identity cascade""");
     }

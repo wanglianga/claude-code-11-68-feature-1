@@ -23,3 +23,6 @@ springdoc:
 
 app:
   recon-rule-version: recon-v1.0
+  lesion-protocol:
+    # 方案允许的最大层厚(mm)：随访扫描层厚超过该值即判协议越界，变化标不可比较而非进展
+    max-slice-thickness-mm: 3.0

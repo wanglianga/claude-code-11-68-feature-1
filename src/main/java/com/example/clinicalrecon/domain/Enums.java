@@ -98,5 +98,71 @@ public final class Enums {
         public static final String CRA = "CRA";     // 临床监查
         public static final String LAB = "LAB";     // 中心实验室
         public static final String PI = "PI";       // 主要研究者
+        public static final String RAD = "RAD";     // 独立阅片员（影像评估）
     }
+
+    // ==================== 靶病灶纵向域 ====================
+
+    /** 扫描协议状态 */
+    public static final class Protocol {
+        public static final String OK = "OK";
+        public static final String DEVIATION = "PROTOCOL_DEVIATION";
+    }
+
+    /** 测量轴 */
+    public static final class Axis {
+        public static final String LONG = "LONG_AXIS";
+        public static final String SHORT = "SHORT_AXIS";
+        public static final java.util.Set<String> ALL = java.util.Set.of(LONG, SHORT);
+    }
+
+    /** 病灶来源/状态 */
+    public static final class LesionOrigin {
+        public static final String BASELINE = "BASELINE"; // 基线登记
+        public static final String NEW = "NEW";           // 随访新发现（可能提示进展，不并入 SLD）
+        public static final String DERIVED = "DERIVED";   // 分裂/融合子代：同一疾病谱系，非新发病灶
+        public static final java.util.Set<String> ALL =
+                java.util.Set.of(BASELINE, NEW, DERIVED);
+    }
+
+    public static final class LesionStatus {
+        public static final String ACTIVE = "ACTIVE";
+        public static final String NON_MEASURABLE = "NON_MEASURABLE";
+    }
+
+    /** 阅片版本状态 */
+    public static final class Reading {
+        public static final String DRAFT = "DRAFT";
+        public static final String FINAL = "FINAL";
+        public static final String SUPERSEDED = "SUPERSEDED";
+    }
+
+    /** 病灶间映射关系 */
+    public static final class Relation {
+        public static final String CONTINUATION = "CONTINUATION"; // 持续
+        public static final String SPLIT = "SPLIT";               // 分裂
+        public static final String FUSION = "FUSION";             // 融合
+        public static final String NEW = "NEW";                   // 新病灶
+        public static final java.util.Set<String> ALL =
+                java.util.Set.of(CONTINUATION, SPLIT, FUSION, NEW);
+    }
+
+    /** 指标可判定状态 */
+    public static final class Evaluable {
+        public static final String EVALUABLE = "EVALUABLE";
+        public static final String NOT_EVALUABLE = "NOT_EVALUABLE";
+    }
+
+    /** 指标/证据标记 */
+    public static final class LesionFlag {
+        public static final String SPLIT = "SPLIT";
+        public static final String FUSION = "FUSION";
+        public static final String NEW_LESION = "NEW_LESION";
+        public static final String NON_MEASURABLE = "NON_MEASURABLE";
+        public static final String PROTOCOL_DEVIATION = "PROTOCOL_DEVIATION";
+        public static final String UNCONFIRMED_EXCLUDED = "UNCONFIRMED_EXCLUDED";
+    }
+
+    /** 映射规则版本（随计算器逻辑升级而变更，写入指标 basis 与疗效数据集） */
+    public static final String LESION_RULE_VERSION = "lesion-recon-v1.0";
 }
